@@ -1,0 +1,133 @@
+@media screen and (max-width: 1200px) {
+  .nav_left {
+    gap: 45px;
+  }
+
+  .header__link {
+    font-size: 17px;
+    gap: 20px;
+  }
+  .header__link-button {
+    font-size: 13px;
+    padding: 16px 32px;
+  }
+
+  /* section efficient */
+
+  .efficient_top-left h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 50px;
+  }
+  .nav_left {
+    gap: 35px;
+  }
+
+  .header__link {
+    font-size: 14px;
+    gap: 17px;
+  }
+  .header__link-button {
+    padding: 14px 28px;
+    font-size: 11px;
+  }
+
+  /* section efficient */
+
+  .efficient_top-left h1 {
+    font-size: 45px;
+  }
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 30px;
+  }
+  .nav_left {
+    gap: 30px;
+  }
+
+  .header__link {
+    display: none;
+  }
+
+  .burger_menu {
+    display: flex;
+  }
+
+  .header__link-button {
+    display: none;
+  }
+
+  /* section efficient */
+
+  .efficient_top {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .efficient_top-left h1 {
+    text-align: center;
+    font-size: 38px;
+  }
+
+  .efficient_top-right {
+    text-align: center;
+  }
+
+  .efficient_top-right span {
+    font-size: 16px;
+  }
+  .efficient_bottom {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .efficient_bottom-right {
+    flex-direction: row;
+    gap: 50px;
+  }
+  .efficient_bottom_right-text {
+    width: 93px;
+    border-bottom: none;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .efficient_bottom_right-text h2 {
+    font-size: 32px;
+  }
+
+  .efficient_bottom_right-text p {
+    font-size: 14px;
+  }
+}
+
+/* -------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  /* section efficient */
+
+  .efficient_top-left h1 {
+    font-size: 32px;
+  }
+
+  .efficient_top-right span {
+    font-size: 14px;
+  }
+}
+
+/* ---------------------------------------------------- */
+
+@media screen and (max-width: 320px) {
+}
