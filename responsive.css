@@ -15,7 +15,7 @@
   /* section efficient */
 
   .efficient_top-left h1 {
-    font-size: 50px;
+        font-size: 50px;
     text-align: center;
   }
 }
@@ -69,6 +69,10 @@
   }
 
   /* section efficient */
+
+  .efficient {
+    margin-top: 68px;
+  }
 
   .efficient_top {
     display: flex;
@@ -140,6 +144,19 @@
 }
 .services-card p {
   font-size: 14px;
+}
+
+
+
+/* recent-projects  */
+
+
+.recent-projects-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  justify-content: center;
 }
 
 
