@@ -1,5 +1,5 @@
 @media screen and (max-width: 1200px) {
-  .nav_left {
+  .nav__left {
     gap: 45px;
   }
 
@@ -26,7 +26,7 @@
   .container {
     padding: 0 50px;
   }
-  .nav_left {
+  .nav__left {
     gap: 35px;
   }
 
@@ -52,7 +52,7 @@
   .container {
     padding: 0 30px;
   }
-  .nav_left {
+  .nav__left {
     gap: 30px;
   }
 
@@ -60,7 +60,7 @@
     display: none;
   }
 
-  .burger_menu {
+  .burger__menu {
     display: flex;
   }
 
@@ -111,6 +111,39 @@
   .efficient_bottom_right-text p {
     font-size: 14px;
   }
+
+
+
+  /* divider_section */
+
+  .divider_section {
+    margin-top: 80px;
+
+}
+
+
+
+/* services */
+
+.services-title-top {
+  font-size: 14px;
+}
+
+.services-title-bottom {
+  padding-top: 12px;
+  font-size: 32px;
+}
+
+
+.services-card h2 {
+  font-size: 24px;
+}
+.services-card p {
+  font-size: 14px;
+}
+
+
+
 }
 
 /* -------------------------------------------------------------- */

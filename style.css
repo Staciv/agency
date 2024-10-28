@@ -20,13 +20,13 @@ body {
 .navigate {
   margin-top: 50px;
 }
-.nav_wrap {
+.nav__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav_left {
+.nav__left {
   display: flex;
   align-items: center;
   gap: 56px;
@@ -36,14 +36,14 @@ body {
   min-width: 102px;
 }
 
-.burger_menu {
+.burger__menu {
   display: none;
   flex-direction: column;
   gap: 8px;
   cursor: pointer;
 }
 
-.burger_menu .line {
+.burger__menu .line {
   width: 34px;
   height: 4px;
   background: rgb(255, 255, 255);
@@ -89,7 +89,7 @@ body {
 }
 
 .efficient_bottom {
-    margin-top: 100px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   gap: 125px;
@@ -140,10 +140,9 @@ body {
 }
 
 .efficient_bottom_right-text {
-    width: 295px;
-    border-bottom: 2px solid white;
-    padding-bottom: 33px ;
-
+  width: 295px;
+  border-bottom: 2px solid white;
+  padding-bottom: 33px;
 }
 
 .efficient_bottom_right-text h2 {
@@ -155,5 +154,187 @@ body {
 
 .efficient_bottom_right-text p {
   font-size: 20px;
+}
+
+/* divider_section  */
+
+.divider_section {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.divider_section img {
+  max-width: none;
+  width: auto;
+}
+
+/* services  */
+
+.services {
+  margin-top: 150px;
+}
+
+.services-title-top {
+  margin: 0 auto;
+  width: 160px;
+  text-align: center;
+  padding: 10px 13px;
+  font-size: 18px;
+  border-radius: 50px;
+  background-color: rgb(255, 223, 0, 0.2);
+}
+
+.services-title-top img {
+  padding-right: 12px;
+}
+
+.services-title-top span {
+  font-size: 18px;
+  color: rgb(255, 223, 0);
+}
+
+.services-title-bottom {
+  padding-top: 16px;
+  text-align: center;
+  font-size: 44px;
+}
+.services-title-bottom span {
+  color: rgb(255, 223, 0);
+}
+
+.services-cards {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.services-card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 400px;
+  padding: 39px 62px;
+  border-radius: 24px;
+  background: rgb(27, 27, 27);
+}
+
+.services-card:hover {
+  background: rgb(255, 223, 0);
+  color: rgb(21, 21, 21);
+
+  transition: all 0.6s;
+}
+
+.services-card span {
+  width: 72px;
+  padding: 24px;
+  color: black;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.services-card:hover span {
+  background-color: rgb(21, 21, 21);
+  color: rgb(255, 255, 255);
+
+  transition: all 0.6s;
+}
+
+.services-card h2 {
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.services-card p {
+  max-width: 276px;
+  padding-top: 12px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/* recent-projects */
+
+.recent-projects {
+  margin-top: 140px;
+}
+
+.bacgr-recent {
+  height: 428px;
+  background-color: rgb(255, 223, 0);
+
+  z-index: 999;
+}
+
+.recent-projects-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 55px;
+
+  z-index: 1;
+}
+
+.recent-projects-title h1 {
+  font-size: 44px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: rgb(21, 21, 21);
+}
+.recent-projects-title a {
+  padding: 16px 36px;
+  border-radius: 8px;
+  background: rgb(21, 21, 21);
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.recent-projects-cards {
+    display: flex;
+    justify-content: space-between;
+  margin-top: 55px;
+}
+
+.recent-projects-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 24px;
+  background: rgb(27, 27, 27);
+}
+
+.recent-projects-card-title {
+  display: flex;
+  align-items: center;
+  padding: 24px 0 35px 24px;
+  gap: 20px;
+}
+
+.recent-line {
+  width: 112px;
+  height: 2px;
+  background: rgb(255, 255, 255);
+}
+
+.recent-projects-card-title h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.recent-projects-card-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px 24px 24px;
+}
+
+.recent-projects-card-content p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recent-projects-card-content a {
+    padding: 24px;
+    border-radius: 50%;
+    background: rgb(255, 223, 0);
 }
 
