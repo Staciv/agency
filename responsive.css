@@ -1,4 +1,10 @@
-@media screen and (max-width: 1200px) {
+:root {
+  --mobile-breakpoint: 768px;
+  --table-breakpoint: 992px;
+  --desktop-breakpoint: 1200px;
+}
+
+@media screen and (max-width: var(--desktop-breakpoint)) {
   .nav__left {
     gap: 45px;
   }
@@ -15,14 +21,14 @@
   /* section efficient */
 
   .efficient_top-left h1 {
-        font-size: 50px;
+    font-size: 50px;
     text-align: center;
   }
 }
 
 /* -------------------------------------------------------------- */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: var(--table-breakpoint)) {
   .container {
     padding: 0 50px;
   }
@@ -48,7 +54,7 @@
 
 /* -------------------------------------------------------------- */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: var(--mobile-breakpoint)) {
   .container {
     padding: 0 30px;
   }
@@ -116,51 +122,39 @@
     font-size: 14px;
   }
 
-
-
   /* divider_section */
 
   .divider_section {
     margin-top: 80px;
+  }
 
-}
+  /* services */
 
+  .services-title-top {
+    font-size: 14px;
+  }
 
+  .services-title-bottom {
+    padding-top: 12px;
+    font-size: 32px;
+  }
 
-/* services */
+  .services-card h2 {
+    font-size: 24px;
+  }
+  .services-card p {
+    font-size: 14px;
+  }
 
-.services-title-top {
-  font-size: 14px;
-}
+  /* recent-projects  */
 
-.services-title-bottom {
-  padding-top: 12px;
-  font-size: 32px;
-}
-
-
-.services-card h2 {
-  font-size: 24px;
-}
-.services-card p {
-  font-size: 14px;
-}
-
-
-
-/* recent-projects  */
-
-
-.recent-projects-title {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  text-align: center;
-  justify-content: center;
-}
-
-
-
+  .recent-projects-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 /* -------------------------------------------------------------- */
@@ -175,9 +169,4 @@
   .efficient_top-right span {
     font-size: 14px;
   }
-}
-
-/* ---------------------------------------------------- */
-
-@media screen and (max-width: 320px) {
 }
