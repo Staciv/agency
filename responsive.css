@@ -1,9 +1,22 @@
+<<<<<<< Updated upstream
 @media screen and (max-width: 1200px) {
+=======
+:root {
+  --desktop-breakpoint: 1200px;
+  --tablet-breakpoint: 992px;
+  --mobile-breakpoint: 768px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 0 50px;
+  }
+>>>>>>> Stashed changes
   .nav__left {
     gap: 45px;
   }
 
-  .header__link {
+  .header__link a {
     font-size: 17px;
     gap: 20px;
   }
@@ -12,11 +25,65 @@
     padding: 16px 32px;
   }
 
-  /* section efficient */
-
   .efficient_top-left h1 {
-    font-size: 50px;
+    font-size: 41px;
     text-align: center;
+  }
+
+  .divider_section-top-item,
+  .divider_section-bottom-item {
+    flex-shrink: 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .services-card {
+    flex: 1 1 300px;
+  }
+
+  .efficient_airplan,
+  .testimonials-airplane {
+    display: none;
+  }
+
+  .recent-projects-title {
+    padding: 0;
+  }
+  .creative_process-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .creative_process-title {
+    text-align: center;
+  }
+
+  .creative_process-left {
+    padding: 0;
+  }
+
+  .wordpress_resources-list,
+  .latest_posts-list {
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .wordpress_resources-item,
+  .latest_posts-item {
+    flex: 1 1 350px;
+    overflow: hidden;
+  }
+
+  .testimonials_content {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .footer_right {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -24,7 +91,11 @@
 
 @media screen and (max-width: 992px) {
   .container {
-    padding: 0 50px;
+    padding: 0 45px;
+  }
+
+  .subtitle {
+    font-size: 16px;
   }
   .nav__left {
     gap: 35px;
@@ -35,20 +106,71 @@
     gap: 17px;
   }
   .header__link-button {
-    padding: 14px 28px;
+    padding: 10px 18px;
     font-size: 11px;
   }
 
-  /* section efficient */
+  .efficient_top {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 
   .efficient_top-left h1 {
     font-size: 45px;
+  }
+
+  .efficient_bottom-left-logo {
+    position: absolute;
+    top: -12%;
+    left: 80%;
+  }
+
+  .efficient_bottom-right {
+    flex-direction: row;
+  }
+
+  .efficient_bottom_right-text {
+    padding-bottom: 0;
+    width: auto;
+    border-bottom: none;
+  }
+  .efficient_bottom {
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .divider_section {
+    margin-top: 90px;
+  }
+
+  .services {
+    margin-top: 100px;
+  }
+
+  .recent-projects {
+    margin-top: 120px;
+  }
+
+  .wordpress_resources-item,
+  .latest_posts-item {
+    flex: 1 1 300px;
+  }
+
+  .footer_left {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 /* -------------------------------------------------------------- */
 
+<<<<<<< Updated upstream
 @media screen and (max-width: 768px) {
+=======
+@media screen and (max-width: 769px) {
+>>>>>>> Stashed changes
   .container {
     padding: 0 30px;
   }
@@ -68,7 +190,19 @@
     display: none;
   }
 
+<<<<<<< Updated upstream
   /* section efficient */
+=======
+  .efficient {
+    margin-top: 68px;
+  }
+
+  .efficient-snowflake-image,
+  .efficient_airplan,
+  .services-snowlake {
+    display: none;
+  }
+>>>>>>> Stashed changes
 
   .efficient_top {
     display: flex;
@@ -86,10 +220,10 @@
   }
 
   .efficient_top-right span {
-    font-size: 16px;
+    font-size: 19px;
   }
+
   .efficient_bottom {
-    flex-direction: column;
     gap: 32px;
   }
 
@@ -97,30 +231,34 @@
     flex-direction: row;
     gap: 50px;
   }
-  .efficient_bottom_right-text {
-    width: 93px;
-    border-bottom: none;
-    text-align: center;
-    padding-bottom: 0;
-  }
 
   .efficient_bottom_right-text h2 {
-    font-size: 32px;
+    font-size: 42px;
   }
 
-  .efficient_bottom_right-text p {
-    font-size: 14px;
+  .efficient_bottom_right-text p,
+  .efficient_top-right button {
+    font-size: 20px;
   }
 
+<<<<<<< Updated upstream
 
 
   /* divider_section */
 
+=======
+>>>>>>> Stashed changes
   .divider_section {
     margin-top: 80px;
 
+<<<<<<< Updated upstream
 }
 
+=======
+  .services-title-top {
+    font-size: 14px;
+  }
+>>>>>>> Stashed changes
 
 
 /* services */
@@ -143,20 +281,171 @@
 }
 
 
+<<<<<<< Updated upstream
 
+}
+=======
+  .services {
+    margin-top: 80px;
+  }
+
+  .recent_projects-wrap-bottom {
+    height: 350px;
+  }
+  .our__awards-title {
+    font-size: 32px;
+  }
+
+  .wordpress_resources-title h1,
+  .latest_posts-title h1 {
+    font-size: 32px;
+  }
+
+  .wordpress_resources-navigation-left,
+  .latest_posts-navigation-left {
+    gap: 30px;
+    font-size: 14px;
+  }
+
+  .wordpress_resources-list,
+  .latest_posts-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .wordpress_resources-item,
+  .latest_posts-item {
+    flex: 1 1 auto;
+  }
+
+  .testimonials_title {
+    font-size: 32px;
+  }
+
+  .testimonials_content-right-text {
+    font-size: 14px;
+  }
 }
 
 /* -------------------------------------------------------------- */
 
 @media screen and (max-width: 480px) {
-  /* section efficient */
+  .subtitle {
+    font-size: 14px;
+    padding: 11px 19px;
+  }
+
+  .efficient_top-right button {
+    padding: 15px 32px;
+  }
 
   .efficient_top-left h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .efficient_top-right span {
     font-size: 14px;
+  }
+
+  .efficient_bottom-right {
+    gap: 32px;
+  }
+
+  .efficient_bottom_right-text h2 {
+    font-size: 32px;
+  }
+
+  .efficient_bottom_right-text p {
+    font-size: 14px;
+  }
+  .efficient_bottom-left-logo img {
+    width: 80%;
+  }
+
+  .efficient_bottom-left-logo {
+    top: -14%;
+    left: 80%;
+  }
+
+  .services-title-bottom {
+    font-size: 28px;
+  }
+
+  .services-card {
+    padding: 41px 51px;
+  }
+
+  .recent-projects {
+    margin-top: 100px;
+  }
+
+  .recent-projects-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    justify-content: center;
+  }
+>>>>>>> Stashed changes
+
+  .recent-projects-title h1 {
+    font-size: 32px;
+  }
+
+  .our__awards-airlpan,
+  .testimonials-airplane {
+    display: none;
+  }
+
+  .recent-projects-title a {
+    padding: 15px 35px;
+    font-size: 14px;
+  }
+
+  .creative_process-title {
+    font-size: 32px;
+  }
+
+  .creative_process-item {
+    padding-left: 20px;
+  }
+  .creative_process-text p {
+    font-size: 14px;
+  }
+
+  .creative_process-icon img {
+    padding: 16px;
+  }
+
+  .testimonials-snowflake {
+    display: none;
+  }
+  .wordpress_resources-navigation,
+  .latest_posts-navigation {
+    justify-content: center;
+  }
+
+  .wordpress_resources-navigation-right,
+  .latest_posts-navigation-right {
+    display: none;
+  }
+
+  .footer_wrap {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .footer_left-nav a {
+    font-size: 12px;
+    line-height: 0;
+    letter-spacing: 0;
+  }
+
+  .footer_right {
+    gap: 15px;
   }
 }
 
