@@ -70,15 +70,16 @@ body {
   background-color: var(--almost-black);
   border-radius: 247.02px;
 }
+
 .skills_cloud-image:hover {
   background-color: var(--main-yellow);
-
   transition: all ease-out 0.5s;
 }
 
 .navigate {
   margin-top: 50px;
 }
+
 .nav__wrap {
   display: flex;
   justify-content: space-between;
@@ -122,7 +123,6 @@ body {
 
 .header__link a:hover {
   color: var(--main-yellow);
-
   transition: all 0.5s;
 }
 
@@ -137,7 +137,6 @@ body {
 
 .header__link-button:hover {
   background: rgba(248, 230, 113, 0.88);
-
   transition: all 0.5s;
 }
 
@@ -229,7 +228,6 @@ body {
 
 .efficient_top-right button:hover {
   background: rgba(248, 230, 113, 0.88);
-
   transition: all 0.5s;
 }
 
@@ -249,6 +247,7 @@ body {
   font-size: 44px;
   font-weight: var(--font-black);
 }
+
 .efficient_bottom_right-text span {
   color: var(--main-yellow);
   font-weight: var(--font-black);
@@ -296,7 +295,6 @@ body {
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   background: rgba(21, 21, 21, 0.15);
-
   transform: rotate(3.5deg);
 }
 
@@ -348,6 +346,7 @@ body {
   font-size: 44px;
   font-weight: var(--font-black);
 }
+
 .services-title-bottom span {
   color: var(--main-yellow);
   font-weight: var(--font-black);
@@ -373,7 +372,6 @@ body {
 .services-card:hover {
   background: var(--main-yellow);
   color: var(--main-black);
-
   transition: all 0.6s;
 }
 
@@ -388,7 +386,6 @@ body {
 .services-card:hover span {
   background-color: var(--main-black);
   color: var(--main-white);
-
   transition: all 0.6s;
 }
 
@@ -398,6 +395,7 @@ body {
   font-weight: var(--font-extrabold);
   line-height: 30px;
 }
+
 .services-card p {
   max-width: 276px;
   padding-top: 12px;
@@ -423,7 +421,6 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
   z-index: 2;
 }
 
@@ -452,6 +449,7 @@ body {
   text-transform: uppercase;
   color: var(--main-black);
 }
+
 .recent-projects-title a {
   padding: 16px 36px;
   border-radius: 8px;
@@ -463,7 +461,6 @@ body {
 
 .recent-projects-title a:hover {
   background-color: rgba(61, 54, 0, 0.804);
-
   transition: all 0.5s;
 }
 
@@ -540,9 +537,9 @@ body {
   border-bottom: 8px;
   width: 64px;
 }
+
 .scroll-line.active:hover {
   border-bottom: 8px;
-
   transition: all 0.8s;
 }
 
@@ -600,14 +597,15 @@ body {
 .skills_cloud-bottom li {
   flex-shrink: 0;
 }
+
 .skills_cloud-image {
   padding: 31.2px 41.6px;
   background-color: var(--almost-black);
   border-radius: 247.02px;
 }
+
 .skills_cloud-image:hover {
   background-color: var(--main-yellow);
-
   transition: all ease-out 0.5s;
 }
 
@@ -631,6 +629,7 @@ body {
   padding-left: 80px;
   gap: 40px;
 }
+
 .creative_process-title {
   font-size: 44px;
   font-weight: var(--font-black);
@@ -642,16 +641,19 @@ body {
   font-weight: var(--font-black);
   color: var(--main-yellow);
 }
+
 .creative_process-list {
   display: flex;
   flex-direction: column;
   gap: 32px;
 }
+
 .creative_process-item {
   display: flex;
   align-items: center;
   gap: 24px;
 }
+
 .creative_process-icon img {
   font-size: 24px;
   padding: 20px;
@@ -664,6 +666,7 @@ body {
   font-weight: var(--font-extrabold);
   line-height: 30px;
 }
+
 .creative_process-text p {
   font-size: 18px;
   line-height: 28px;
@@ -675,6 +678,7 @@ body {
 .latest_posts-title {
   text-align: center;
 }
+
 .wordpress_resources-title h1,
 .latest_posts-title h1 {
   font-size: 44px;
@@ -696,6 +700,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .wordpress_resources-navigation-left,
 .latest_posts-navigation-left {
   display: flex;
@@ -716,9 +721,9 @@ body {
 .latest_posts-navigation-right a:hover {
   color: var(--main-yellow);
   border-bottom: 2px solid var(--main-yellow);
-
   transition: all ease-in 0.1s;
 }
+
 .wordpress_resources-navigation-right,
 .latest_posts-navigation-right {
   display: flex;
@@ -768,17 +773,20 @@ body {
   flex-direction: column;
   gap: 4px;
 }
+
 .wordpress_resources-item-bottom-left h3,
 .latest_posts-item-bottom-left h3 {
   font-size: 16px;
   font-weight: var(--font-bold);
   color: var(--main-black);
 }
+
 .wordpress_resources-item-bottom-left p,
 .latest_posts-item-bottom-left p {
   font-size: 14px;
   color: rgb(129, 129, 129);
 }
+
 .wordpress_resources-item-bottom-right,
 .latest_posts-item-bottom-right a {
   padding: 6px 12px;
@@ -790,7 +798,6 @@ body {
 .wordpress_resources-item-bottom-right a:hover,
 .latest_posts-item-bottom-right a:hover {
   background: rgba(248, 230, 113, 0.88);
-
   transition: all 0.5s;
 }
 
@@ -828,6 +835,7 @@ body {
 .testimonials_content-right {
   max-width: 610px;
 }
+
 .testimonials_content {
   display: flex;
   align-items: center;
@@ -865,7 +873,6 @@ body {
 
 .testimonials-forward:hover {
   background-color: rgba(248, 230, 113, 0.88);
-
   transition: all 0.5s;
 }
 
@@ -878,6 +885,7 @@ body {
 .latest_posts-navigation {
   position: relative;
 }
+
 .testimonials-airplane {
   position: absolute;
   left: 0;
@@ -890,6 +898,7 @@ body {
 .footer {
   background-color: var(--almost-black);
 }
+
 .footer_wrap {
   padding: 70px 0;
   display: flex;
@@ -919,9 +928,9 @@ body {
 
 .footer_left-nav a:hover {
   color: var(--main-yellow);
-
   transition: all 0.5s;
 }
+
 .footer_right {
   display: flex;
   gap: 40px;
