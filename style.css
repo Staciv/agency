@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Cabinet Grotesk';
-  src: url('./fonts/CabinetGrotesk-Medium.woff.woff') format('woff');
+  src: url('./fonts/CabinetGrotesk-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -470,14 +470,15 @@ body {
 .recent-projects-cards {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
   margin-top: 55px;
+  overflow: hidden;
 }
 
 .recent-projects-card {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  min-width: 400px;
   border-radius: 24px;
   background: var(--almost-black);
   overflow: hidden;
@@ -530,11 +531,19 @@ body {
   width: 32px;
   height: 4px;
   border-radius: 10px;
+  border-top: 8px;
   background-color: var(--main-yellow);
+  cursor: pointer;
 }
 
-.scroll-line:first-child {
+.scroll-line.active {
+  border-bottom: 8px;
   width: 64px;
+}
+.scroll-line.active:hover {
+  border-bottom: 8px;
+
+  transition: all 0.8s;
 }
 
 /* our__awards */
