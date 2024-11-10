@@ -1,13 +1,7 @@
-let slides = document.querySelectorAll('.recent-projects-card');
-let paginationButtons = document.querySelectorAll('.scroll-line');
+const slides = document.querySelectorAll('.recent-projects-card');
+const paginationButtons = document.querySelectorAll('.scroll-line');
 const slidesToShow = 3;
 let currentIndex = 0;
-
-paginationButtons.forEach((button, index) => {
-  button.addEventListener('click', () => {
-    updateSlide(index * slidesToShow);
-  });
-});
 
 function updateSlide(index) {
   if (index >= 0 && index <= slides.length - slidesToShow) {
@@ -26,3 +20,9 @@ function updateSlide(index) {
     });
   }
 }
+
+paginationButtons.forEach((button, index) => {
+  button.addEventListener('click', () => {
+    updateSlide(index * slidesToShow);
+  });
+});
