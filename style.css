@@ -481,6 +481,10 @@ body {
   overflow: hidden;
 }
 
+.recent-projects-card-image img {
+  height: 300px;
+}
+
 .recent-projects-card-title {
   display: flex;
   align-items: center;
